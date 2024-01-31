@@ -1,7 +1,7 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import { sendDataToAPI } from "../services/ApiService";
 import NetInfo from "@react-native-community/netinfo";
 import { Alert } from "react-native";
+import { sendDataToAPI } from "../services/ApiService";
 
 const BATCH_SIZE = 10;
 let isAlertShown = false;
